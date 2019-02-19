@@ -1,11 +1,10 @@
-# Phaser 3 Webpack Project Template (Modified)
+# Phaser 3 Tower Defense Game
 
-A Template for Phaser 3 - Modified and made generic for my purposes
 
 
 
 ## Install and run
+`npm start`  Run on port 8000
 
-`./install.sh`
-
+Bundle file in build folder for deployment
 
