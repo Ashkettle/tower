@@ -4,7 +4,8 @@
 
 
 ## Install and run
-`npm start`  Run on port 8000
+`npm insall`
+`npm start`      Run on port 8000
 
 Bundle file in build folder for deployment
 
