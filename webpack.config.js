@@ -4,7 +4,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-
+    mode: 'production',
     entry: './src/index.js',
 
     output: {
@@ -14,12 +14,13 @@ module.exports = {
     },
 
     module: {
-        rules: [
-          {
-            test: [ /\.vert$/, /\.frag$/ ],
+        rules: [{
+            test: [/\.vert$/, /\.frag$/],
             use: 'raw-loader'
-          }
-        ]
+        }]
+    },
+    performance: {
+        hints: false
     },
 
     plugins: [
